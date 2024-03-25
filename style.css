@@ -1,0 +1,20 @@
+img{
+    border-radius: 100%;
+    max-width: 150px;
+    
+}
+ 
+
+body{
+    background-color: rgb(235, 234, 234);
+    text-align: justify;
+    width: 960px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1{color: rgb(17, 17, 70);
+font-size: 30px;}
+h2{color: rgb(17, 17, 70);
+font-size: 20px;}
