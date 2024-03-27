@@ -98,6 +98,8 @@ position: relative;
 list-style: none;
 margin: 10px 0;
 cursor: pointer;
+width: 100%;
+display: flex;
 }
 .contactInfo ul li .icon
 {
@@ -182,7 +184,7 @@ p
 }
 .about .box .year_company
 {
-    min-width: 150px;
+    width: 40%;
 }
 .about .box .year_company h5
 {
@@ -194,6 +196,9 @@ p
     text-transform: uppercase;
     color: rgb(0, 127, 211);
     font-size: 16px;
+}
+.about .box .text {
+    width: 80%;
 }
 .skills .box
 {
@@ -242,4 +247,10 @@ background: rgb(0, 127, 211);
     color: rgb(0, 127, 211);
     font-size: 18px;
     width: 20px;
+}
+span .icon{
+    width: 10%;
+}
+span .text{
+    width: 80%;
 }
